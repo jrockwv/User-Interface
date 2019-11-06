@@ -64,9 +64,104 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-.digital{
+
+.top-section{
+	font-family: 'Yeon Sung', cursive;
+	letter-spacing: 2px;
+	width: 100%;
+}
+.top-section div{
+display: inline-block;
+padding-top: 25;
+padding-bottom: 25px;
+padding-right: 50px;
+width: 43%;
+margin: 20px 15px 0px 15px;
+
+}
+#wrapper{
+	width: 800px;
+	margin: 0 auto;
+}
+.bottom-section{
+	width: 100%;
+}
+.bottom-section div{
+	font-family: 'Yeon Sung', cursive;
+	display: inline-block;
+	width: 25%;	
+	margin:20px;
+}
+footer{
+	padding:50px;
+}
+#adress{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+#phone{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+#email{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+#copy{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+	font-weight: 600;
+}
+#align{
+	display: inline-block;
+	center:left;
+}
+.middle-image{
+	margin; 10px;
+}
+nav{
+	display:inline-block;
+	width:1220px;
+	margin: 10px;
+	padding: 2%;
+}
+.firstnav{
+	display: inline-block;
+	margin: 0px 25px;
+	color:gray;
+}
+.logo{
+	display: inline-block;
 	
 }
-p{
+.button{
+	background-color: gray;
+	border: none;
+	color: aqua;
+	padding: 12px 28px;
+	text-align: center;
+	text-decoration: none;
 	display: inline-block;
+	font-size: 16px;
+	margin: 75px;
+	letter-spacing: 2px;
+}
+.digital{
+ float:right;
+ display: inline-block;
+ width: 400px;
+}
+.first{
+	font-size: 64px;
+	font-weight: 900;
+	width:400px;
+	height:400px;
+display:inline-block;
+text-align:center;
+margin-bottom: 50px;
+}
+hr{
+	border-width: 1px;
+	border-color: black;
 }
